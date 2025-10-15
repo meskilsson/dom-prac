@@ -22,7 +22,10 @@ let h4 = document.querySelector('.texth4');
 
 h4.textContent = "I want to move to the center.";
 
-h4.style.color = 'red';
+
+h4.setAttribute('class', 'h4class');
+console.log(h4);
+h4.setAttribute('style', 'font-size: 2rem; color: red; display: flex; justify-content: center; align-items: center;')
 
 
 let pirrigriff = document.querySelector('.textp');
